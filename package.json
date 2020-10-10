@@ -1,0 +1,29 @@
+{
+  "name": "shop-server",
+  "version": "1.0.0",
+  "description": "Backend Application using Node.js and REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdgarMC100/shop-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdgarMC100/shop-server/issues"
+  },
+  "homepage": "https://github.com/EdgarMC100/shop-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
